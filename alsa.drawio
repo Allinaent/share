@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T05:15:24.611Z" agent="5.0 (X11)" etag="g6NJu6PIDj2866xiWqeH" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T05:20:25.310Z" agent="5.0 (X11)" etag="IfvauUe45dxCNIIhUkYl" version="14.7.3" type="github">
   <diagram id="8qPLRy9dRH75e9D9rNFp" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="54dJCSdVns1m2ge1cCNw-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;labelBackgroundColor=#E6E6E6;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="10" y="620" width="820" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="54dJCSdVns1m2ge1cCNw-40" value="&lt;span style=&quot;background-color: rgb(255 , 230 , 204)&quot;&gt;硬件层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#D5E8D4;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="54dJCSdVns1m2ge1cCNw-40" value="&lt;span style=&quot;background-color: rgb(230 , 230 , 230)&quot;&gt;硬件层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#D5E8D4;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="700" y="665" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="54dJCSdVns1m2ge1cCNw-41" value="音频设备&lt;br&gt;（蓝牙耳机，ac97或者HD-audio接口耳机，麦克风，喇叭）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;" parent="1" vertex="1">
