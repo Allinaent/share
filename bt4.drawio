@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T08:04:35.412Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.3.2" etag="UHdP_LR58xozmriABCqD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T08:24:28.521Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XZA-iRI2DddfFFI_-jpU" version="21.3.2" type="github">
   <diagram name="第 1 页" id="Gyb4UMunvFrB5R7EUgkK">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-1" value="BlueZ工具集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-2" value="音频设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-3" value="串口设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-4" value="网络设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-5" value="其它设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-6" value="用户区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="190" as="sourcePoint" />
+            <mxPoint x="620" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-9" value="内核区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-10" value="HCI协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-11" value="SCO协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-12" value="RFCOMM协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-13" value="L2CAP协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-14" value="BNEP协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-15" value="BlueZ和HCI核心层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="450" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-16" value="USB驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="275" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-17" value="串口驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="275" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-18" value="其它驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="275" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HR6SaotW3ETVWT3s8Ru3-19" value="蓝牙硬件设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="315" width="270" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
