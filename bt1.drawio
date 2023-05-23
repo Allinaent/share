@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T06:48:48.392Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.3.2" etag="Q880pb6tiy5PTUVByisQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T07:17:06.007Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Z7sco0ULkK5bpgab5l5V" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BjYa8Dpt_-15yP-BYvpV">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-1" value="读取设备描述符" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="312" y="352" width="38" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-4" value="访问接口0的端点" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="352" width="38" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-5" value="填充结构体" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="352" width="38" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="321" />
+              <mxPoint x="740" y="321" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-7" value="SCO分组" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="60" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-8" value="配置同步点" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="38" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-9" value="继续填充hci_usb结构体" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="60" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-10" value="初始化并注册HCI设备" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="350" width="38" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-11" value="保存hci_usb数据" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;verticalAlign=middle;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;fontSize=15;spacingLeft=8;spacingRight=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="940" y="350" width="60" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-1" target="X2hk36DA2ZNyFCGUHz_T-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-4" target="X2hk36DA2ZNyFCGUHz_T-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="451" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-5" target="X2hk36DA2ZNyFCGUHz_T-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="441" as="sourcePoint" />
+            <mxPoint x="400" y="461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-7" target="X2hk36DA2ZNyFCGUHz_T-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="450" as="sourcePoint" />
+            <mxPoint x="680" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X2hk36DA2ZNyFCGUHz_T-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="439" as="sourcePoint" />
+            <mxPoint x="690" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-9" target="X2hk36DA2ZNyFCGUHz_T-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="460" as="sourcePoint" />
+            <mxPoint x="850" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2hk36DA2ZNyFCGUHz_T-10" target="X2hk36DA2ZNyFCGUHz_T-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="450" as="sourcePoint" />
+            <mxPoint x="710" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-23" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X2hk36DA2ZNyFCGUHz_T-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="322" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
