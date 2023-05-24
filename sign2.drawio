@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T02:11:58.430Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.3.2" etag="4dLK6JDYVuhU1akiTXzU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T02:18:54.874Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ly47fR_iOr8umWJQhZX2" version="21.3.2" type="github">
   <diagram name="第 1 页" id="z4SdgvEBRybkMsO1cB3t">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-1" target="L4E3bz6kgq61ecZvjTWt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-1" value="签名开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-2" target="L4E3bz6kgq61ecZvjTWt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-2" target="L4E3bz6kgq61ecZvjTWt-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-2" value="检查签名文件是不存在签名信息" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-3" target="L4E3bz6kgq61ecZvjTWt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-3" value="原始数据做sha256摘要算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-4" target="L4E3bz6kgq61ecZvjTWt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-4" value="填充contentinfo字段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-5" target="L4E3bz6kgq61ecZvjTWt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-5" value="附加证书" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-6" target="L4E3bz6kgq61ecZvjTWt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-6" value="附加签名者信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L4E3bz6kgq61ecZvjTWt-7" target="L4E3bz6kgq61ecZvjTWt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-7" value="签名数据SignedData附加到文件和DEB包中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-8" value="签名结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-17" value="无签名信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="258" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L4E3bz6kgq61ecZvjTWt-18" value="存在签名信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
