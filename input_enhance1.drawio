@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T06:58:34.765Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TP-8I0Isjj1WkDCRqAz9" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T06:58:45.065Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5uQf4DkLoHFr4_c6i1DP" version="21.6.8" type="github">
   <diagram name="第 1 页" id="wdvR4C0qIUrqQW8k-UTv">
     <mxGraphModel dx="2261" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
         <mxCell id="1ddjSxnr8l98ZfU4l-Zb-34" value="kbd driver3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="545" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-35" value="uos_input_enhance module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="570" y="420" width="140" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="1ddjSxnr8l98ZfU4l-Zb-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.392;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="1ddjSxnr8l98ZfU4l-Zb-31" target="1ddjSxnr8l98ZfU4l-Zb-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="540" as="sourcePoint" />
@@ -127,18 +130,18 @@
             <mxPoint x="-50" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1ddjSxnr8l98ZfU4l-Zb-29" edge="1">
+        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1ddjSxnr8l98ZfU4l-Zb-29" target="1ddjSxnr8l98ZfU4l-Zb-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="500" as="sourcePoint" />
-            <mxPoint x="570" y="440" as="targetPoint" />
+            <mxPoint x="550" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1ddjSxnr8l98ZfU4l-Zb-40" value="LSM USKI hook&amp;nbsp;&lt;br&gt;kernel function input_event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="370" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="1ddjSxnr8l98ZfU4l-Zb-16" edge="1">
+        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1ddjSxnr8l98ZfU4l-Zb-35" target="1ddjSxnr8l98ZfU4l-Zb-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="620" y="420" as="sourcePoint" />
             <mxPoint x="670" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
