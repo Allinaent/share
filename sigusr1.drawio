@@ -1,107 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T09:27:55.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tByHo0cQEJQ6lihSEZNg" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T02:43:15.172Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9BuJvFw2I_Q1jvGIwgH8" version="22.1.16" type="github">
   <diagram name="第 1 页" id="QLYPvNAtz1wv3T7xWaiF">
     <mxGraphModel dx="1434" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="170" width="250" height="170" as="geometry" />
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="170" width="250" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-3" value="systemd-logind" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-3" value="systemd-logind" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="135" y="190" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-1" target="7LhGe-NGFBg3xJkiA3kp-1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-1" target="7LhGe-NGFBg3xJkiA3kp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-7" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-7" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="125" y="410" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-8" value="drivers/tty/vt/vt_ioctl.c:&lt;br&gt;set_console&lt;br&gt;schedule_console_callback&lt;br&gt;...&lt;br&gt;change_console&lt;br&gt;kill_pid(vc-&amp;gt;vt_pid, vc-&amp;gt;vt_mode.relsig, 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-8" value="drivers/tty/vt/vt_ioctl.c:&lt;br&gt;set_console&lt;br&gt;schedule_console_callback&lt;br&gt;...&lt;br&gt;change_console&lt;br&gt;kill_pid(vc-&amp;gt;vt_pid, vc-&amp;gt;vt_mode.relsig, 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="460" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="595" width="310" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-6" target="7LhGe-NGFBg3xJkiA3kp-9">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-6" target="7LhGe-NGFBg3xJkiA3kp-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="600" as="sourcePoint" />
             <mxPoint x="220" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-11" value="kernel send sigusr1 to orig xorg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LhGe-NGFBg3xJkiA3kp-10">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-11" value="kernel send sigusr1 to orig xorg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7LhGe-NGFBg3xJkiA3kp-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1091" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-1" target="7LhGe-NGFBg3xJkiA3kp-6">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-1" target="7LhGe-NGFBg3xJkiA3kp-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-50" y="410" as="sourcePoint" />
             <mxPoint y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-13" value="orig xorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-13" value="orig xorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="125" y="610" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="180" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-15" value="login/logind-session.c:&lt;br&gt;session_level_vt&lt;br&gt;vt_release&lt;br&gt;(ioctl(fd, VT_RELDISP, 1)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="95" y="290" width="200" height="30" as="geometry" />
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-15" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;hw/xfree86/os-support/linux/lnx_init.c:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;xf86OpenConsole&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;switch_to&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ioctl(xf86Info.consoleFd, VT_ACTIVATE, vt))&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="95" y="270" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-16" value="systemd-logind" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-16" value="systemd-logind" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="545" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="7LhGe-NGFBg3xJkiA3kp-14" target="7LhGe-NGFBg3xJkiA3kp-14" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-14" target="7LhGe-NGFBg3xJkiA3kp-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-9" target="7LhGe-NGFBg3xJkiA3kp-14">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-9" target="7LhGe-NGFBg3xJkiA3kp-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="700" as="sourcePoint" />
             <mxPoint x="240" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-19" value="login/login.c:&lt;br&gt;manager_vt_switch&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-19" value="login/login.c:&lt;br&gt;manager_vt_switch&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="225" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="380" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-21" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-21" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="545" y="390" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-22" value="drivers/tty/vt/vt_ioctl.c:&lt;br&gt;complete_change_console&lt;br&gt;kill_pid(vc-&amp;gt;vt_pid, vc-&amp;gt;vt_mode.acqsig, 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-22" value="drivers/tty/vt/vt_ioctl.c:&lt;br&gt;complete_change_console&lt;br&gt;kill_pid(vc-&amp;gt;vt_pid, vc-&amp;gt;vt_mode.acqsig, 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="430" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-23" value="terminal-util.c:&lt;br&gt;ioctl(fd, VT_ACTIVATE, vt)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-23" value="terminal-util.c:&lt;br&gt;ioctl(fd, VT_ACTIVATE, vt)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="505" y="260" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-14" target="7LhGe-NGFBg3xJkiA3kp-20">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-14" target="7LhGe-NGFBg3xJkiA3kp-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="380" as="sourcePoint" />
             <mxPoint x="660" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="595" width="300" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-27" value="new xorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-27" value="new xorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="545" y="610" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7LhGe-NGFBg3xJkiA3kp-20" target="7LhGe-NGFBg3xJkiA3kp-25">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7LhGe-NGFBg3xJkiA3kp-20" target="7LhGe-NGFBg3xJkiA3kp-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="580" as="sourcePoint" />
             <mxPoint x="630" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-31" value="orig xorg send sigusr1 to new xorg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LhGe-NGFBg3xJkiA3kp-30">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-31" value="orig xorg send sigusr1 to new xorg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7LhGe-NGFBg3xJkiA3kp-30" vertex="1" connectable="0">
           <mxGeometry x="-0.0199" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LhGe-NGFBg3xJkiA3kp-32" value="os/connection.c&lt;br&gt;handler = OsSignal(SIGUSR1, SIG_IGN);&lt;br&gt;kill(ParentProcess, SIGUSR1);&lt;br&gt;&lt;br&gt;hw/xfree86/os-support/linux/lnx_init.c:&lt;br&gt;xf86OpenConsole&lt;br&gt;switch_to&lt;br&gt;ioctl(xf86Info.consoleFd, VT_ACTIVATE, vt))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7LhGe-NGFBg3xJkiA3kp-32" value="os/connection.c&lt;br&gt;handler = OsSignal(SIGUSR1, SIG_IGN);&lt;br&gt;kill(ParentProcess, SIGUSR1);&lt;br&gt;&lt;br&gt;login/logind-session.c:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;session_level_vt&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;vt_release&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(ioctl(fd, VT_RELDISP, 1)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="65" y="690" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
