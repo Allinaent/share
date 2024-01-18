@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T02:48:48.277Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="22.1.17" etag="EMp7pigJVZX9VXkMnnKO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T04:43:46.185Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5lGCaGsQBA_ci8BKmTNm" version="22.1.17" type="github">
   <diagram name="第 1 页" id="LTQjKz9YtYomnKZ_Mywr">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="832YJZHTjLU3speMGmf1-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="340" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-15" value="客厅" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="560" width="220" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-1" value="光猫（路由模式，关闭无线）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-2" value="lan 1（千兆）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-3" value="lan2（千兆）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-4" value="IPTV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-6" target="832YJZHTjLU3speMGmf1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+            <mxPoint x="270" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-6" value="路由器（次卧千兆，关闭dhcp）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="640" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-7" value="交换机（2.5G）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-7" target="832YJZHTjLU3speMGmf1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="550" as="sourcePoint" />
+            <mxPoint x="340" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-10" value="主卧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="730" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-9" value="机顶盒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="605" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-11" value="厨房nas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-9" target="832YJZHTjLU3speMGmf1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="430" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-10" target="832YJZHTjLU3speMGmf1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="720" as="sourcePoint" />
+            <mxPoint x="320" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-11" target="832YJZHTjLU3speMGmf1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="770" as="sourcePoint" />
+            <mxPoint x="560" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-17" value="电视网口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="605" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="832YJZHTjLU3speMGmf1-7" target="832YJZHTjLU3speMGmf1-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="680" as="sourcePoint" />
+            <mxPoint x="530" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="832YJZHTjLU3speMGmf1-20" value="弱电箱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
