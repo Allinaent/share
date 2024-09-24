@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T06:38:30.382Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Xs7yRLgfP3noYHGI3kwR" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="wdvR4C0qIUrqQW8k-UTv">
-    <mxGraphModel dx="2261" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="1ddjSxnr8l98ZfU4l-Zb-6" value="libinput" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-7" value="kwin_wayland" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1ddjSxnr8l98ZfU4l-Zb-7" value="graphic compositor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1ddjSxnr8l98ZfU4l-Zb-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1ddjSxnr8l98ZfU4l-Zb-4" target="1ddjSxnr8l98ZfU4l-Zb-5" edge="1">
